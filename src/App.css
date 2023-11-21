@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #0F0F0F;
+}
+
+body::-webkit-scrollbar {
+  background-color: #0F0F0F;
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #AAAAAA;
+  border-radius: 9em;
+}
+
+
+.App {
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*.App::-webkit-scrollbar {*/
+/*  width: 20px;*/
+/*  overflow-y: scroll;*/
+/*  background-color: #ffffff;*/
+/*}*/
+
+.App > div {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.contentContainer {
+  flex: 2;
+}

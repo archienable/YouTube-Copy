@@ -1,0 +1,43 @@
+.shortsTabContainer {
+  margin-left: calc((100% - 1284px)/2);
+  margin-right: calc((100% - 1284px)/2);
+}
+
+.shortsTabContent {
+  display: grid;
+  gap: 30px 15px;
+  grid-template-columns: repeat(auto-fill, 200px);
+}
+
+.shortsTabItem {
+  max-width: 210px;
+  max-height: 464px;
+  text-decoration: none;
+}
+
+.shortsTabPicture {
+  width: 210px;
+  height: 372px;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.channelShortsPlayerYouTube > iframe {
+  width: 210px;
+  height: 372px;
+  border-radius: 15px;
+}
+
+.shortsTabTitle {
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  width: 190px;
+  margin-bottom: 20px;
+  text-align: left;
+}

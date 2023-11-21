@@ -1,0 +1,101 @@
+.contentContainer {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px 24px 0 0;
+  justify-content: center;
+}
+
+.contentItem {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 0 6px;
+  max-width: 350px;
+  height: 320px;
+  text-decoration: none;
+}
+
+.contentVideo {
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.contentVideoItem {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.contentInfo {
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
+}
+
+.logoChannel {
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+  background: #606060;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.rightBlock {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding-right: 24px;
+  max-width: 280px;
+  height: 100px;
+  gap: 10px;
+}
+
+.contentDescription {
+  height: 35px;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  overflow: hidden;
+  color: white;
+}
+
+.channelInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contentChannelTitle {
+  color: #AAAAAA;
+  font-size: 12px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.contentChannelTitle:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.contentDate {
+  color: #AAAAAA;
+  font-size: 12px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

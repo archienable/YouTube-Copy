@@ -1,0 +1,62 @@
+.searchResultsContainer {
+  margin-top: 20px;
+  margin-left: calc((100% - 1284px)/2);
+  margin-right: calc((100% - 1284px)/2);
+}
+
+.searchResultsItem {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.searchResultsItemVideo {
+  width: 320px;
+  height: 180px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.searchResultsItemVideoInfo {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.searchResultsItemTitle {
+  color: white;
+  max-width: 400px;
+  text-decoration: none;
+}
+
+.searchResultsItemDate {
+  color: #AAAAAA;
+  font-size: 12px;
+}
+
+.searchResultsItemChannelInfo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.searchResultsItemChannelLogo {
+  background: #AAAAAA;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.searchResultsItemChannelTitle {
+  color: #AAAAAA;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.searchResultsItemChannelTitle:hover {
+  cursor: pointer;
+  color: white;
+}

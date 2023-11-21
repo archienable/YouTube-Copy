@@ -1,0 +1,190 @@
+.videoDetailsContainer {
+  height: 100%;
+  color: white;
+  padding-top: 24px;
+}
+
+.videoDetailsContainer > div {
+  display: flex;
+  gap: 20px;
+}
+
+.videoDetailsLeftBlock {
+  color: white;
+  /*border: 1px solid blue;*/
+  flex: 2;
+}
+
+.videoDetailsPlayerYouTube {
+  margin-bottom: 20px;
+}
+
+.videoDetailsPlayerYouTube>iframe {
+  border-radius: 20px;
+}
+
+.detailInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 10px;
+}
+
+.detailTitle {
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.18px;
+}
+
+.detailChannelInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 20px;
+}
+
+.channelInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoChannel {
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+  background: #AAAAAA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+.channelTitle {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  color: white;
+}
+
+.channelLike {
+  color: #AAAAAA;
+  font-size: 12px;
+}
+
+.videoInfo {
+  background: #303030;
+  border-radius: 10px;
+  max-width: 100%;
+  /*height: 100px;*/
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px 5px 5px 15px ;
+}
+
+.videoInfoDescription {
+  display: flex;
+}
+
+.videoInfoDescriptionText.showMoreSuccess {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  /*width: 500px;*/
+}
+
+.videoInfoDescriptionText {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.videoInfoDescriptionShowMore {
+  width: 100px;
+  display: flex;
+}
+
+.btnShowMore {
+  color: white;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btnShowLess {
+  text-align: left;
+  color: white;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.videoCommentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.commentBlock {
+  display: flex;
+  gap: 10px;
+}
+
+.commentImage {
+  display: flex;
+  flex: 0 0 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  background: #AAAAAA;
+}
+
+.commentContent {
+
+}
+
+.commentDisplayName {
+  font-size: 13px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.commentTextOriginal {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  overflow: hidden;
+
+}
+
+.videoDetailsRightBlock {
+  /*border: 1px solid red;*/
+}

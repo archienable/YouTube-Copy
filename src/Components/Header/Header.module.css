@@ -1,0 +1,74 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 24px;
+  /*border-bottom: 1px solid red;*/
+  position: sticky;
+  top: 0;
+  background: #0F0F0F;
+}
+
+.startHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.btnSvgBurger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  height: 40px;
+  width: 40px;
+}
+
+.btnSvgBurger:hover {
+  cursor: pointer;
+  border-radius: 50px 50px;
+  background: #303030;
+}
+
+.navYouTube {
+  display: flex;
+  align-items: center;
+}
+
+.endHeader {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.btnCreate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  height: 40px;
+  width: 40px;
+}
+
+.btnCreate:hover {
+  cursor: pointer;
+  border-radius: 50px 50px;
+  background: #303030;
+}
+
+.avaHeader {
+  height: 32px;
+  width: 32px;
+  background: #AAAAAA;
+  border-radius: 50px 50px;
+  border: none;
+  color: white;
+}
+
+.avaHeader:hover {
+  cursor: pointer;
+}
