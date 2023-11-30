@@ -33,7 +33,6 @@ const RightBlock = () => {
 		}
 	}
 
-
 	// console.log('rightBlock', rightBlock)
 
 

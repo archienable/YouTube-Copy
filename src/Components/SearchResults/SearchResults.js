@@ -9,19 +9,14 @@ const SearchResults = () => {
 	const [searchResults, setSearchResults] = useState([])
 
 
-		// Используем useParams для получения параметров из URL
 		const aaa = useParams();
 
-		// Используем useLocation для получения объекта location
 		const location = useLocation();
 		const searchParams = new URLSearchParams(location.search);
 		const queryParam = searchParams.get('queryParam');
 
-	console.log('location', location)
-	console.log('searchParams', searchParams)
 
 		const bbb = Object.fromEntries(searchParams.entries())
-	console.log('bbb', bbb)
 
 		const SearchQuery = async () => {
 			const options = {
@@ -42,7 +37,7 @@ const SearchResults = () => {
 
 		try {
 			const response = await axios.request(options);
-			console.log(response.data);
+			// console.log(response.data);
 			setSearchResults(response.data.items)
 		} catch (error) {
 			console.error(error);
@@ -53,7 +48,7 @@ const SearchResults = () => {
 		SearchQuery()
 	}, [SearchQuery]);
 
-	console.log('searchResults', searchResults)
+	// console.log('searchResults', searchResults)
 
 
 	return (

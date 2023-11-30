@@ -115,10 +115,6 @@ const VideoDetails = () => {
 											<NavLink to={`/channel/${detail.snippet.channelId}`} className={style.channelTitle}>
 												{detail.snippet.channelTitle}
 											</NavLink>
-											{/*<div className={style.channelLike}>*/}
-											{/*	like*/}
-											{/*	{func(detail.statistics.likeCount)}*/}
-											{/*</div>*/}
 										</div>
 									</div>
 									<div className={style.videoInfo}>

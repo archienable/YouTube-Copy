@@ -1,6 +1,8 @@
 .inputGroupContainer {
   display: flex;
-  width: 728px;
+  /*width: 728px;*/
+  align-items: center;
+  margin-left: 30px;
 }
 
 .addInput {

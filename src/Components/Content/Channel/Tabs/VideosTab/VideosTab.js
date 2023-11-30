@@ -35,7 +35,7 @@ const VideosTab = () => {
 		}
 	}
 
-	console.log('channelVideos', channelVideos)
+	// console.log('channelVideos', channelVideos)
 
 	useEffect( () => {
 		channelVideosApi()

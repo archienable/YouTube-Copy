@@ -39,7 +39,7 @@ const Channel = () => {
 		}
 	}
 
-	console.log('channelDetails', channelDetails)
+	// console.log('channelDetails', channelDetails)
 
 
 	useEffect( () => {
